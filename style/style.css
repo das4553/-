@@ -1091,6 +1091,9 @@ footer {
     display: none;
   }
 }
+.responsive {
+  display: none;
+}
 
 @media (width <= 640px) {
   .LOGO {
@@ -1154,5 +1157,33 @@ footer {
   .for-img {
     width: 500px;
     height: 600px;
+  }
+  .client {
+    margin-bottom: 86px;
+  }
+  .responsive {
+    display: block;
+  }
+  .for-desktop {
+    display: none;
+  }
+  .show {
+    width: 100%;
+    overflow: hidden;
+  }
+  .s p {
+    font-size: 14px;
+  }
+  .s h1 {
+    font-size: 20px;
+  }
+  .s img {
+    width: 70px;
+  }
+  .info {
+    max-width: 100%;
+  }
+  .for-img {
+    max-width: 100%;
   }
 }
