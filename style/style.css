@@ -49,21 +49,28 @@ li {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 8%;
+  justify-content: center;
+  padding: 0 6%;
   background-color: #dddddd;
+  width: 100%;
 }
-header div {
+.head-div {
   font-weight: bold;
   font-family: "Poppins";
   position: relative;
+}
+.wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header div p {
   font-size: 90px;
   color: grey;
 }
-header div span {
+.head-div span {
   position: absolute;
   top: 50px;
   font-size: 20px;
@@ -1057,5 +1064,95 @@ footer {
 
   .Copmanies:hover .Clients {
     display: none;
+  }
+
+  .LOGO {
+    font-size: 25px;
+  }
+  .head-div p {
+    font-size: 45px;
+  }
+  .head-div span {
+    display: none;
+  }
+  .client {
+    font-family: "Montserrat-Bold";
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+  }
+  .client {
+    font-size: 12px;
+  }
+  .client div {
+    width: 170px;
+  }
+  header {
+    display: none;
+  }
+}
+
+@media (width <= 640px) {
+  .LOGO {
+    font-size: 25px;
+  }
+  .head-div p {
+    font-size: 45px;
+  }
+
+  .About-me h1 {
+    font-size: 12px;
+  }
+  .About-me p:nth-child(1) {
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+  .About-me p:nth-child(3) {
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+
+  .Name {
+    font-size: 30px;
+    font-family: "Poppins";
+  }
+
+  .category ul li button {
+    font-size: 12px;
+  }
+  .Projects img {
+    width: 120px;
+    height: 150px;
+  }
+  .sct-6 h1 {
+    font-size: 23px;
+  }
+  .img-4 img {
+    width: 73px;
+  }
+  .text {
+    font-size: 13px;
+    text-align: center;
+  }
+  .Services {
+    width: 100px;
+    height: 120px;
+  }
+  .Services img {
+    width: 30px;
+  }
+  .Services p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .titl1 {
+    font-size: 12px;
+  }
+  .title2 {
+    font-size: 23px;
+  }
+  .for-img {
+    width: 500px;
+    height: 600px;
   }
 }
