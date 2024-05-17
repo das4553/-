@@ -93,7 +93,7 @@ header div span {
 .slide-img-1 {
   height: 550px;
   width: 650px;
-  background: url("/assets/img/image\ \(7\).png");
+  background: url("../assets/img/image\ \(7\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ header div span {
 .slide-img-2 {
   height: 550px;
   width: 650px;
-  background: url("/assets/img/image\ \(8\).png");
+  background: url("../assets/img/image\ \(8\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ header div span {
 .slide-img-3 {
   height: 550px;
   width: 650px;
-  background: url("/assets/img/image\ \(9\).png");
+  background: url("../assets/img/image\ \(9\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +229,7 @@ header div span {
 .img-1 {
   width: 430px;
   height: 603px;
-  background-image: url("/assets/img/img\ \(10\).jpg");
+  background-image: url("../assets/img/img\ \(10\).jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -434,7 +434,7 @@ header div span {
 .sct-5 {
   width: 100%;
   height: 50vh;
-  background-image: url(/assets/img/clip.jpg);
+  background-image: url(../assets/img/clip.jpg);
   margin-top: 40px;
   background-position: center;
   background-size: cover;
@@ -699,13 +699,13 @@ header div span {
   background: gray;
 }
 .first-img {
-  background: url(/assets/img/img-1.jpg);
+  background: url(../assets/img/img-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .second-img {
-  background: url(/assets/img/img-2.png);
+  background: url(../assets/img/img-2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -715,7 +715,7 @@ header div span {
   justify-content: end;
 }
 .third-img {
-  background: url(/assets/img/img-3.jpg);
+  background: url(../assets/img/img-3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -785,7 +785,7 @@ header div span {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url(/assets/img/map.jpg);
+    url(../assets/img/map.jpg);
   background-position: center;
   background-size: cover;
   background-clip: padding-box;
