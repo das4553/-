@@ -1254,7 +1254,11 @@ footer {
   .skill-name {
     font-size: 15px;
   }
-  footer {
+  .sct-9 h1 {
+    font-size: 25px;
+  }
+  .sct-9 {
     text-align: center;
+    height: auto;
   }
 }
