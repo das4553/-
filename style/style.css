@@ -955,6 +955,7 @@ footer {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    height: auto;
   }
   .client {
     right: 90px;
@@ -1101,6 +1102,7 @@ footer {
     display: block;
   }
   .sct-7 {
+    height: auto;
     margin-top: 0rem;
   }
   .slide-2 {
@@ -1136,6 +1138,19 @@ footer {
   .sct-6 {
     padding: 0;
     margin-top: 20px;
+    height: auto;
+  }
+  .sct-2 {
+    height: auto;
+  }
+  .sct-3 {
+    height: 3;
+  }
+  .sct-4 {
+    height: auto;
+  }
+  .sct-5 {
+    height: auto;
   }
 }
 
