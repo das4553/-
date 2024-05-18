@@ -1030,7 +1030,7 @@ footer {
     display: none;
   }
   .show-projects {
-    max-width: 700px;
+    max-width: 100%;
   }
 
   .category ul li button.active3::after {
@@ -1091,7 +1091,9 @@ footer {
   }
   .client {
     font-size: 12px;
+    margin-right: 7rem;
   }
+
   .client div {
     width: 170px;
   }
@@ -1101,6 +1103,27 @@ footer {
   }
   .sct-7 {
     margin-top: 0rem;
+  }
+  .slide-2 {
+    flex-direction: column-reverse;
+  }
+  .row {
+    text-align: center;
+    display: flex;
+  }
+  .img-4 {
+    border: none;
+  }
+  .border-div div {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+  }
+  .border-div .active2 {
+    background-color: #a32038;
+  }
+  .wrapper {
+    margin-top: 60px;
   }
 }
 
@@ -1189,14 +1212,11 @@ footer {
   .Services:hover .description-1 {
     display: none;
   }
-  .slide-2 {
-    flex-direction: column-reverse;
+  .Projects img {
+    width: 120px;
+    height: 150px;
   }
-  .row {
+  .foot-div {
     text-align: center;
-    display: flex;
-  }
-  .img-4 {
-    border: none;
   }
 }
