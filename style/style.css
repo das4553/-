@@ -957,7 +957,8 @@ footer {
     flex-direction: column;
   }
   .client {
-    right: 90px;
+    right: 0;
+    bottom: 0;
   }
   .img-1 {
     display: none;
