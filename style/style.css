@@ -525,6 +525,7 @@ header div p {
   z-index: -1;
   position: relative;
 }
+
 @keyframes Aslide-2 {
   from {
     transform: translateY(80%);
