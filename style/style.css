@@ -248,7 +248,25 @@ header div p {
   height: 10px;
   overflow: hidden;
 }
-
+.for-desktop {
+  display: none;
+}
+@media (width > 1400px) {
+  .for-desktop {
+    display: block;
+  }
+  .show {
+    animation-name: Askill;
+    animation-duration: 2s;
+  }
+  .responsive {
+    display: none;
+  }
+  .btn-2:hover {
+    background: #e93656;
+    color: #fff;
+  }
+}
 .skl-1 .div-02 {
   background-color: #e93656;
   width: 225px;
@@ -287,11 +305,6 @@ header div p {
 }
 .skill-name span {
   color: #e93656;
-}
-
-.show {
-  animation-name: Askill;
-  animation-duration: 2s;
 }
 
 @keyframes Askill {
@@ -459,8 +472,9 @@ header div p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 0rem;
   position: relative;
+  flex-direction: row;
 }
 
 .img-4 {
@@ -474,6 +488,7 @@ header div p {
 .slide-div {
   max-width: 430px;
 }
+
 .text {
   text-align: right;
 }
@@ -875,10 +890,7 @@ header div p {
   align-items: center;
   justify-content: center;
 }
-.btn-2:hover {
-  background: #e93656;
-  color: #fff;
-}
+
 footer {
   width: 100%;
   height: 60vh;
@@ -984,11 +996,7 @@ footer {
   .Services p {
     font-size: 18px;
   }
-  .border-div {
-    bottom: 50px;
-    right: 350px;
-    flex-direction: row;
-  }
+
   .text {
     font-size: 14px;
   }
@@ -1087,12 +1095,13 @@ footer {
   .client div {
     width: 170px;
   }
-  header {
-    display: none;
+
+  .responsive {
+    display: block;
   }
-}
-.responsive {
-  display: none;
+  .sct-7 {
+    margin-top: 0rem;
+  }
 }
 
 @media (width <= 640px) {
@@ -1161,16 +1170,7 @@ footer {
   .client {
     margin-bottom: 86px;
   }
-  .responsive {
-    display: block;
-  }
-  .for-desktop {
-    display: none;
-  }
-  .show {
-    width: 100%;
-    overflow: hidden;
-  }
+
   .s p {
     font-size: 14px;
   }
@@ -1185,5 +1185,18 @@ footer {
   }
   .for-img {
     max-width: 100%;
+  }
+  .Services:hover .description-1 {
+    display: none;
+  }
+  .slide-2 {
+    flex-direction: column-reverse;
+  }
+  .row {
+    text-align: center;
+    display: flex;
+  }
+  .img-4 {
+    border: none;
   }
 }
