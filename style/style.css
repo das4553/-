@@ -1091,7 +1091,6 @@ footer {
   }
   .client {
     font-size: 12px;
-    margin-right: 7rem;
   }
 
   .client div {
@@ -1125,6 +1124,15 @@ footer {
   .wrapper {
     margin-top: 60px;
   }
+  .info {
+    max-width: 100%;
+  }
+  .for-img {
+    max-width: 100%;
+  }
+  .sct-2 {
+    height: auto;
+  }
 }
 
 @media (width <= 640px) {
@@ -1152,9 +1160,6 @@ footer {
     font-family: "Poppins";
   }
 
-  .category ul li button {
-    font-size: 12px;
-  }
   .Projects img {
     width: 120px;
     height: 150px;
@@ -1190,9 +1195,6 @@ footer {
     width: 500px;
     height: 600px;
   }
-  .client {
-    margin-bottom: 86px;
-  }
 
   .s p {
     font-size: 14px;
@@ -1203,20 +1205,36 @@ footer {
   .s img {
     width: 70px;
   }
-  .info {
-    max-width: 100%;
-  }
-  .for-img {
-    max-width: 100%;
-  }
+
   .Services:hover .description-1 {
     display: none;
   }
   .Projects img {
-    width: 120px;
-    height: 150px;
+    width: 100px;
+    height: 140px;
+  }
+  .Projects {
+    max-width: 90px;
   }
   .foot-div {
     text-align: center;
+  }
+  .div-1 h1 {
+    font-size: 26px;
+  }
+  .div-1 span {
+    font-size: 12px;
+  }
+  .div-1 p {
+    font-size: 15px;
+  }
+  .contact p {
+    font-size: 13px;
+  }
+  .contact a {
+    font-size: 11px;
+  }
+  .category ul li button {
+    font-size: 10px;
   }
 }
