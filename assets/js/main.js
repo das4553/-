@@ -136,31 +136,31 @@ fillterButtons.forEach((button) =>
   button.addEventListener("click", fillterCard)
 );
 
-let form = document.getElementById("form");
+// let form = document.getElementById("form");
 
-form.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  let formData = new FormData(form);
-  for (let item of formData) {
-    console.log(item[0], item[1]);
-  }
+// form.addEventListener("submit", async (e) => {
+//   e.preventDefault();
+//   let formData = new FormData(form);
+//   for (let item of formData) {
+//     console.log(item[0], item[1]);
+//   }
 
-  try {
-    const response = await fetch(
-      "https://borjomi.loremipsum.ge/api/send-message",
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+//   try {
+//     const response = await fetch(
+//       "https://borjomi.loremipsum.ge/api/send-message",
+//       {
+//         method: "POST",
+//         body: formData,
+//       }
+//     );
 
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
-    }
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
 
-    const data = await response.json();
-    console.log(data);
-  } catch (err) {
-    console.log(err);
-  }
-});
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// });
