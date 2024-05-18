@@ -136,6 +136,7 @@ fillterButtons.forEach((button) =>
   button.addEventListener("click", fillterCard)
 );
 
+//
 // let form = document.getElementById("form");
 
 // form.addEventListener("submit", async (e) => {
