@@ -575,9 +575,10 @@ header div p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  max-width: 630px;
   margin-top: 50px;
   font-size: 20px;
+  gap: 20px;
 }
 .category ul {
   gap: 10px;
@@ -1132,6 +1133,10 @@ footer {
   .sct-2 {
     height: auto;
   }
+  .sct-6 {
+    padding: 0;
+    margin-top: 20px;
+  }
 }
 
 @media (width <= 640px) {
@@ -1245,7 +1250,8 @@ footer {
   .category {
     width: 100%;
   }
-  .sct-6 {
-    padding: 0;
+
+  .skill-name {
+    font-size: 15px;
   }
 }

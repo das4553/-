@@ -607,8 +607,13 @@
         <h1>CONTAC US</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 
-        <form id="form" method="post">
+        <form action="https://api.web3forms.com/submit" id="form" method="post">
           <div class="wrapper-7">
+            <input
+              type="hidden"
+              name="access_key"
+              value="e81c0f59-5078-4047-8c91-7046819aa92b"
+            />
             <div class="input-group input-group-1">
               <input
                 type="text"
@@ -616,6 +621,7 @@
                 class="input"
                 placeholder="Your Name*"
                 required
+                id="name"
               />
 
               <!-- <label for="name" class="placeholder">Your Name</label> -->
@@ -624,10 +630,11 @@
             <div class="input-group input-group-1">
               <input
                 type="text"
-                name="Address"
+                name="email"
                 class="input"
-                placeholder="Your Address*"
+                placeholder="Email Address*"
                 required
+                id="email"
               />
               <!-- <label for="Address" class="placeholder">Your Address</label> -->
             </div>
@@ -639,6 +646,7 @@
                 class="input"
                 placeholder="Your Website*"
                 required
+                id="website"
               />
               <!-- <label for="Website" class="placeholder">Your Website</label> -->
             </div>
@@ -650,6 +658,7 @@
               class="input"
               placeholder="Message*"
               required
+              id="message"
             />
 
             <!-- <label for="Message" class="placeholder">Message</label> -->
