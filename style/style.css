@@ -575,7 +575,7 @@ header div p {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 630px;
+  width: 100%;
   margin-top: 50px;
   font-size: 20px;
 }
@@ -585,12 +585,11 @@ header div p {
   flex-direction: column;
 }
 .category {
-  height: 401px;
+  height: 406px;
   width: 100%;
   background-color: #15263e;
   display: flex;
   justify-content: center;
-  margin-right: 20px;
   flex-direction: column;
   align-items: center;
 }
@@ -1216,6 +1215,12 @@ footer {
   .Projects {
     max-width: 90px;
   }
+  .dashed-border {
+    border: none;
+  }
+  .Services p {
+    font-size: 12px;
+  }
   .foot-div {
     text-align: center;
   }
@@ -1236,5 +1241,11 @@ footer {
   }
   .category ul li button {
     font-size: 10px;
+  }
+  .category {
+    width: 100%;
+  }
+  .sct-6 {
+    padding: 0;
   }
 }
