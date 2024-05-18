@@ -136,7 +136,7 @@ fillterButtons.forEach((button) =>
   button.addEventListener("click", fillterCard)
 );
 
-//
+//თავიდან ეს კოდი მეწერა მაგრამ მიგდებდა რომ სერვერის ლინკი დაზიანებული იყო ამიტომ ეს კოდი დავაკომენტარე და სხვანაირად გავაკეთე
 // let form = document.getElementById("form");
 
 // form.addEventListener("submit", async (e) => {
