@@ -955,7 +955,6 @@ footer {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: auto;
   }
   .client {
     right: 90px;
